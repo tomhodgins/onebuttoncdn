@@ -37,7 +37,7 @@
       <section id="firstrun">
         <p>Welcome to the OneButton CDN. To get started, press the 'Deploy' button below.</p>
         <form class="actions" action="install/exec-install.php" name="updatebutton" method="post">
-          <button type="submit" class="btn">Deploy <i class="icon-off"></i></button>
+          <button type="submit" class="btn">Deploy</button>
         </form>
       </section>
       
