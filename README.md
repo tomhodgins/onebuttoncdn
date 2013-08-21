@@ -27,13 +27,13 @@ TIP: If you wish to secure your OneButton CDN page, the simplest way is by using
 Download OneButton CDN from https://github.com/tomhodgins/onebuttoncdn/archive/master.zip
 
 ####Step 2: Extract the archive
-You should be able to extract the archive using software already installed on your system (or using something like http://www.7zip.com for any Windows users looking for a good free extraction tool)
+You should be able to extract the ZIP archive using software already installed on your system (or using http://www.7zip.com for any Windows users)
 
 ####Step 2: Upload the folder
-Upload the extracted OneButton CDN folder and files to the intended location on your web server using your FTP client
+Upload the extracted OneButton CDN folder to the location on your web server where you wish to install it using your FTP client
 
 ####Step 4: Browser-based installation
-Visit the location where you uploaded OneButton CDN in your browser and press the 'Deploy' button to begin hosting files
+Visit the location where you uploaded OneButton CDN in your browser and press the 'Deploy' button to install OneButton CDN
 
 ##Installing OneButton CDN by command line interface
 
@@ -42,7 +42,7 @@ Visit the location where you uploaded OneButton CDN in your browser and press th
 $ git clone https://github.com/tomhodgins/onebuttoncdn.git
 ```
 ####Step 2: Browser-based installation
-Visit the location where you uploaded OneButton CDN in your browser and press the 'Deploy' button to begin hosting files
+Visit the location where you downloaded OneButton CDN from your browser and press the 'Deploy' button to install OneButton CDN
 
 ##Updating OneButton CDN through the browser
 
