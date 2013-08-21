@@ -8,6 +8,8 @@
   <link href="bootstrap.min.css" rel="stylesheet">
   <!-- FontAwesome -->
   <link href="font-awesome.min.css" rel="stylesheet">
+  <!-- Source Sans via Google Web Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <!-- jQuery hosted jQuery to get us installed, with a local fallback -->
   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>  
   <script>
@@ -17,8 +19,6 @@
   </script>
   <!-- Boostrap JavaScript -->
   <script src="bootstrap.min.js"></script>
-  <!-- Source Sans via Google Web Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=no" />
 
 </head>
@@ -256,7 +256,37 @@
     #firstrun {
       display: none;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
+      color: #666;
+    }
+    
+    #firstrun .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      margin-bottom: 0;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 1.33;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-radius: 6px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      color: #fff;
+      background-color: #5cb85c;
+      border-color: #4cae4c;
+    }
+    
+    #firstrun .btn:hover {
+      color: #fff;
+      background-color: #47a447;
+      border-color: #398439;
     }
     
     /* Responsive Styles Affecting Browsers 0-480 Pixels Wide (smartphones) */
