@@ -96,11 +96,13 @@ $ rm -rf onebuttoncdn/
 ####OneButton CDN Won't Install
 For this script to work it's essential that the files are owned by the same user as your web server, and that your web server has write permission all the way into the folder where these files are hosted. For me on my web server, the default user for apache is 'www-data' in the group 'www-data', so on the command line I can do something like this to change the user and group ownership of that folder to ensure that the server it will have the access it requires
 ```
+$ chown www-data:www-data onebuttoncdn/
 $ chown www-data:www-data onebuttoncdn/*
 ```
 ####Permission denied trying to access hosted files
 If you are having difficulties accessing the files, try changing the permissions to 755 on the command line or through your FTP client
 ```
+$ chmod 755 onebuttoncdn/
 $ chmod 755 onebuttoncdn/*
 ```
 
