@@ -27,20 +27,20 @@
   <!-- HTML Section -->  
   <div id="page">
 
-    <h1>OneButton CDN</h1>
+    <h1><i class="icon-user"></i>OneButton CDN</h1>
 
     <div id="updatealert" class="alert alert-success fade in" data-dismiss="alert">Update script manually initiated&hellip;<button type="button" class="close" data-dismiss="alert">&times;</button>
 </div>
     <div id="installedalert" class="alert alert-info fade in" data-dismiss="alert">OneButton CDN deployed&hellip;
 </div>
-      
+
       <section id="firstrun">
         <p>Welcome to the OneButton CDN. To get started, press the 'Deploy' button below.</p>
         <form class="actions" action="install/exec-install.php" name="updatebutton" method="post">
           <button type="submit" class="btn">Deploy</button>
         </form>
       </section>
-      
+
       <section id="cdninfo">
 
         <h2>Bootstrap</h2>    
@@ -61,12 +61,12 @@
         <h2>FontAwesome</h2>    
         <section id="fontawesome">
           <h3>Font Awesome CSS</h3>
-          <pre>files/fontawesome/css/font-awesome.css</pre>
-          <pre>files/fontawesome/css/font-awesome.min.css</pre>
+          <pre>font-awesome.css</pre>
+          <pre>font-awesome.min.css</pre>
 
           <h3>Font Awesome IE7 CSS</h3>
-          <pre>files/fontawesome/font/font-awesome-ie7.css</pre>
-          <pre>files/fontawesome/font/font-awesome-ie7.min.css</pre>
+          <pre>font-awesome-ie7.css</pre>
+          <pre>font-awesome-ie7.min.css</pre>
 
           <h3>Font Awesome Fonts CSS</h3>
           <pre>files/fontawesome/font/fontawesome-webfont.eot</pre>
@@ -76,19 +76,19 @@
           <pre>files/fontawesome/font/FontAwesome.otf</pre>
 
         </section>
-      
+
         <h2>jQuery</h2>    
         <section id="jquery">
           <h3>jQuery Latest</h3>
           <pre>jquery-latest.js</pre>
           <pre>jquery-latest.min.js</pre>
         </section>
-      
+
         <form class="actions" action="update/exec-update.php" name="updatebutton" method="post">
           <button type="submit" class="btn btn-default">Update CDN</button>
         </form>
       </section>
-      
+
       <p class="credit">
         Created by <a href="http://twitter.com/innovati" title="@innovati on Twitter">@innovati</a> &middot; hosted on <a href="http://github.com/tomhodgins/onebuttoncdn" title="OneButton CDN on GitHub">Github</a>
       </p>
@@ -161,7 +161,7 @@
       -moz-box-sizing: border-box;
       box-shadow: rgba(0,0,0,.05) 0 15px 30px;
     }
-    
+
     #page h1 {
       margin: 10px 0 20px;
       font-family: 'Source Sans Pro', sans-serif;
@@ -171,7 +171,7 @@
       text-align: center;
       color: #999;
     }
-    
+
     #page h2 {
       margin: 30px 0 0 0;
       font-family: 'Source Sans Pro', sans-serif;
@@ -181,7 +181,7 @@
       text-align: center;
       color: #333;
     }
-    
+
     #page h3 {
       margin: 15px 0 5px 0;
       font-family: 'Source Sans Pro', sans-serif;
@@ -190,7 +190,7 @@
       line-height: 28pt;
       color: #666;
     }
-    
+
     #page pre {
       font-size: 8pt;
       -webkit-touch-callout: text;
@@ -213,57 +213,57 @@
       color: #fff;
       text-shadow: #880033 0 1px 2px;
     }
-    
+
     #jquery ::selection {
       background: #0066ff;
       color: #fff;
       text-shadow: #003388 0 1px 2px;
     }
-    
+
     p.credit {
       margin: 0;
       text-align: center;
       color: #999;
       font-size: 8pt;
     }
-    
+
     p.credit a {
       color: #777;
     }
-    
+
     p.a:hover {
       color: #555;
     }
-    
+
     form.actions {
       margin: 0;
       text-align: center;
     }
-    
+
     .actions button {
       margin: 15px 0 20px 0;
       float: none;
     }
-    
+
     #updatealert {
       display: none;
     }
-    
+
     #installedalert {
       display: none;
     }
-    
+
     #cdninfo {
       display: block;
     }
-    
+
     #firstrun {
       display: none;
       text-align: center;
       margin-bottom: 30px;
       color: #666;
     }
-    
+
     #firstrun .btn {
       display: inline-block;
       padding: 10px 16px;
@@ -286,13 +286,13 @@
       background-color: #5cb85c;
       border-color: #4cae4c;
     }
-    
+
     #firstrun .btn:hover {
       color: #fff;
       background-color: #47a447;
       border-color: #398439;
     }
-    
+
     /* Responsive Styles Affecting Browsers 0-480 Pixels Wide (smartphones) */
     @media (min-width:0px) and (max-width:480px){
 
