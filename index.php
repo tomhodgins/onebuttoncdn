@@ -27,7 +27,7 @@
   <!-- HTML Section -->  
   <div id="page">
 
-    <h1><i class="icon-user"></i>OneButton CDN</h1>
+    <h1>OneButton CDN</h1>
 
     <div id="updatealert" class="alert alert-success fade in" data-dismiss="alert">Update script manually initiated&hellip;<button type="button" class="close" data-dismiss="alert">&times;</button>
 </div>
