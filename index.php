@@ -61,19 +61,20 @@
         <h2>FontAwesome</h2>    
         <section id="fontawesome">
           <h3>Font Awesome CSS</h3>
-          <pre>font-awesome.css</pre>
-          <pre>font-awesome.min.css</pre>
-
-          <h3>Font Awesome Fonts CSS</h3>
-          <pre>fontawesome-webfont.eot</pre>
-          <pre>fontawesome-webfont.ttf</pre>
-          <pre>fontawesome-webfont.svg</pre>
-          <pre>fontawesome-webfont.woff</pre>
-          <pre>FontAwesome.otf</pre>
+          <pre>files/fontawesome/css/font-awesome.css</pre>
+          <pre>files/fontawesome/css/font-awesome.min.css</pre>
 
           <h3>Font Awesome IE7 CSS</h3>
-          <pre>font-awesome-ie7.css</pre>
-          <pre>font-awesome-ie7.min.css</pre>
+          <pre>files/fontawesome/font/font-awesome-ie7.css</pre>
+          <pre>files/fontawesome/font/font-awesome-ie7.min.css</pre>
+
+          <h3>Font Awesome Fonts CSS</h3>
+          <pre>files/fontawesome/font/fontawesome-webfont.eot</pre>
+          <pre>files/fontawesome/font/fontawesome-webfont.ttf</pre>
+          <pre>files/fontawesome/font/fontawesome-webfont.svg</pre>
+          <pre>files/fontawesome/font/fontawesome-webfont.woff</pre>
+          <pre>files/fontawesome/font/FontAwesome.otf</pre>
+
         </section>
       
         <h2>jQuery</h2>    
@@ -192,12 +193,12 @@
     
     #page pre {
       font-size: 8pt;
-      -webkit-touch-callout: auto;
-      -webkit-user-select: auto;
-      -khtml-user-select: auto;
-      -moz-user-select: auto;
-      -ms-user-select: auto;
-      user-select: auto;
+      -webkit-touch-callout: text;
+      -webkit-user-select: text;
+      -khtml-user-select: text;
+      -moz-user-select: text;
+      -ms-user-select: text;
+      user-select: text;
       cursor: text;
     }
 
