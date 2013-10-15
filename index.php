@@ -43,7 +43,7 @@
       
       <section id="cdninfo">
 
-        <h2>Bootstrap CSS</h2>    
+        <h2>Bootstrap</h2>    
         <section id="bootstrap">
           <h3>Bootstrap CSS</h3>
           <pre>bootstrap.css</pre>
@@ -76,7 +76,7 @@
           <pre>font-awesome-ie7.min.css</pre>
         </section>
       
-        <h2>jQuery JS</h2>    
+        <h2>jQuery</h2>    
         <section id="jquery">
           <h3>jQuery Latest</h3>
           <pre>jquery-latest.js</pre>
@@ -141,6 +141,8 @@
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
+      cursor: default;
+      outline:none;
     }
 
     body {
@@ -196,6 +198,7 @@
       -moz-user-select: auto;
       -ms-user-select: auto;
       user-select: auto;
+      cursor: text;
     }
 
     #bootstrap ::selection {
