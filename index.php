@@ -19,7 +19,7 @@
   </script>
   <!-- Boostrap JavaScript -->
   <script src="bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=no, minimal-ui" />
 
 </head>
 <body>
@@ -272,7 +272,7 @@
       font-weight: normal;
       line-height: 1.33;
       text-align: center;
-      white-space: nowrap;
+      white-spaaace: nowrap;
       vertical-align: middle;
       cursor: pointer;
       border: 1px solid transparent;
